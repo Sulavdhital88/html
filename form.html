@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Form in HTML </h1>
+    <form action="" method="post">
+
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" placeholder="John Doe" required>
+    </form>
+        <br><br>
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email" placeholder="john@example.com" required>
+        <br><br>
+        <label for="pw">Password:</label>
+    <input type="password" name="password" id="pw" placeholder="at least 8 characters" required>
+        <br><br>
+    <label for="gender">Gender:</label>
+    <br><br>
+    <input type="radio" name="gender" id="Male" value="male">
+    <label for="Male">Male</label>
+    <input type="radio" name="gender" id="Female" value="female">
+    <label for="Female">Female</label>
+        <br><br>
+    <label for="">Faculty</label>
+    <br><br>
+    <input type="checkbox" name="Facilty" id="mysql" value="mysql">
+    <label for="Python">python</label>
+    <br>
+    <input type="checkbox" name="Facilty" id="ui/ux" value="ui/ux">
+    <label for="ui/ux">ui/ux</label>
+    <br><br>
+    <input type="submit" value="Submit">
+
+
+    <!-- 
+    HTML FORM:
+    <form> - defines form
+    method - approach to send data from client from user to server. GET and POST are two common method used in form.
+    
+    GET - unsecure approach - data is visible in URL, limit data size can be send in one submission.
+    
+    POST - secure apporach - data is not visible in url, dynamic data size can be sent during form submission.
+    
+    action  - this attribute defines where data is send from form after the submission.
+    
+    <input> - gives input field for user. Eg for text field, email, password, data, number, etc.
+    
+    label - gives caption for <input>.
+
+    id = unique identifier for an element.
+
+    for - attribute of <label>, its value is same as id of <input>.
+    
+    name - attribute of <input>, it carries data of the input field.
+    -->
+</body>
+</html>
